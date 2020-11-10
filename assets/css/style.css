@@ -1,3 +1,31 @@
 #navbar {
-    font-size: 12px;
+    font-weight: bold;
+} 
+#welcome-section {
+    color: maroon;
+    text-align: center;
+}
+#projects {
+    color: navy;
+    text-align: center;
+    font-style: oblique;
+}
+.project-tile {
+    text-align: center;
+}
+#contacts {
+    color: forestgreen;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#profile-link {
+    background-color: lightblue;
+}
+
+
+@media (min-width: 600px) {
+    .project-tile {
+        display: flex;
+        justify-content: space-around;     
+    }
 }
