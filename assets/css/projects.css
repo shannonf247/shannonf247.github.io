@@ -1,0 +1,15 @@
+#projects {
+    color: navy;
+    text-align: center;
+    font-style: oblique;
+}
+.project-tile {
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .projects-container {
+        display: flex;
+        justify-content: space-around;     
+    }
+}
