@@ -24,7 +24,7 @@
 
 
 @media (min-width: 600px) {
-    .project-tile {
+    .projects-container {
         display: flex;
         justify-content: space-around;     
     }
